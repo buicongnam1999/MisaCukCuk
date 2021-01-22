@@ -1,0 +1,68 @@
+.navbar{
+    float: left;
+    width: 220px;
+    height: 100vh;
+    background-color: #fff;
+    border-right: 1px solid #e5e5e5;
+}
+.navbar .logo-site {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.navbar .logo-site .logo-box .toggle-icon{
+    width: 20px;
+    height: 20px;
+    background-image: url('');
+    padding: 12px 10px 12px 16px;
+    justify-content: flex-start;
+}
+.navbar .logo-site .logo-box .amis-logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left:50px;
+    background-image: url('../../img/cukcuk-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: flex-end;
+}
+.navbar .navbar-content{
+    width: 100%;
+}
+    .navbar .navbar-content .nav-item{
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+        height: 44px;
+        cursor: pointer;
+    }
+        .navbar .navbar-content :hover{
+            background-color: #e5e5e5;
+            color: #000;
+            /* width: 100%; */
+        }
+            .nav-item-text{
+                justify-content: flex-end;
+                padding-left: 24px;
+                line-height: 44px;
+            }
+        .navbar .navbar-content .navbar-item .nav-item-icon{
+            justify-self: flex-start;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            align-self: center;
+        }
+        
+        .nav-item .nav-item-icon img{
+            width: 20px;
+            height: 20px;
+            line-height: 44px;
+            position: relative;
+            top: 12px;
+            left: 16px;
+        }
+        
+            

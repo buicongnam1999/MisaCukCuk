@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: calc(100% - 221px);
+    height: 48px;
+    border-bottom: 1px solid #e5e5e5e5;
+    float: left;
+    line-height: 48px;
+    padding-left: 20px;
+    display: flex;
+}
+.header .title{
+    width: 30%;
+    
+}
+.header .account-info{
+    width: 80.5%;
+}
+.header .account-info .account-name{
+    float: right;
+    position: relative;
+    right: 0px;
+}
+.header .account-info .account-avatar img{
+    margin-left: 20px;
+    float: right;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 14px;
+    right: 16px;
+}
+.account-option{
+    float: right;
+    position: relative;
+    top: 5px;
+    left: 16px;
+    right: 16px;
+}
+.header .account-info .account-notification{
+    float: right;
+    position: relative;
+    right: 16px;
+}
+.department-info select{
+    border: none;
+    outline: none;
+}
+.department-info select option{
+    padding: 10px;
+}
+/* .department-info select : */
+

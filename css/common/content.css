@@ -1,0 +1,131 @@
+.content{
+    width: calc(100% - 221px);
+    height: calc(100vh - 61px);
+    float: left;
+}
+/* Page-title */
+.content .header-content{
+    display: flex;
+    padding: 16px;
+    background-color: #fff;
+}
+    .content .header-content .title{
+        font-size: 23px;
+        font-weight: bold;
+        justify-content: flex-start;
+    }
+    .content .header-content .content-feature{
+        position: absolute;
+        right: 16px;
+        display: flex;
+        height: 40px;
+        background-color: #019160;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    /* .content .header-content . */
+    .header-content button{
+        border: none;
+        outline: none;
+    }
+/* Filter bar */
+.content .filter-bar{
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Grid */
+.content .grid{
+
+}
+.content .grid table{
+    width: 100%;
+}
+.content .grid table tr th{
+    font-size: 10px;
+    
+}
+
+/* Paging */
+.content .paging-bar{
+
+}
+
+.fixed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+    .icon-add{
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        line-height: 40px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    .icon-down{
+        line-height: 40px;
+        margin-right: 12px;
+    }
+    .btn-text{  
+        margin: 0px 10px;
+        line-height: 40px;
+        font-size: 13px;
+        border-right: 1px solid white;
+        padding:0px 16px ;
+    }
+
+
+.refresh{
+    padding: 0px 15px;
+    background-color: #fff;
+    border: 1px solid #bbbbbb;
+    height: 44px;
+    line-height: 50px;
+    border-radius: 4px;
+    position: relative;
+    width: 50px;
+    float: right;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.search{
+    margin-left: 16px;
+    border: 1px solid #bbbbbb;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    color: black;
+    line-height: 44px;
+    display: flex;
+}
+    .search .search-icon img{
+        margin-left: 16px;
+        justify-content: flex-start;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+    .search .search-input input{
+        outline: none;
+        border: none;
+        color: #bbbbbb;
+        font-size: 11px;
+        width: 160px;
+        justify-content: flex-end;
+        position: relative;
+        top: -3px;
+    }
+
+.modal{
+    /* display: none; */
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+    width: 1920px;
+    
+}
+
